@@ -4,10 +4,12 @@ This repository contains the dataset and Python code required to reproduce the m
 
 ## Files Included
 * `final_dataset.csv`: The dataset of 715 bulk metallic glasses and their pre-calculated thermodynamic/topological features.
-* bmg_discovery_pipeline.ipynb`: The complete Python script for preprocessing, Random Forest classification, threshold optimization, and high-throughput screening using `matminer`.
-* `requirements.txt`: The list of Python dependencies required to run the code.
+* `bmg_discovery_pipeline.ipynb`: The complete Jupyter Notebook for preprocessing, Random Forest classification, threshold optimization, and high-throughput screening using `matminer`.
+* `requirements.txt`: The list of Python dependencies required to run the code locally.
 
 ## How to Run
-1. Ensure you have Python installed.
-2. Install the required libraries by running: `pip install -r requirements.txt`
-3. Run the pipeline: `python bmg_discovery_pipeline.py`
+1. **Cloud Execution (Recommended):** You can upload the `bmg_discovery_pipeline.ipynb` and `final_dataset.csv` directly to Google Colab and run the cells sequentially. (Use `!pip install -r requirements.txt` in the first cell to install dependencies).
+2. **Local Execution:** 
+   * Ensure you have Python and Jupyter installed.
+   * Install the required libraries by running: `pip install -r requirements.txt` in your terminal.
+   * Open the notebook by running: `jupyter notebook bmg_discovery_pipeline.ipynb`
