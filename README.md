@@ -1,5 +1,7 @@
 # Machine Learning Discovery of Beryllium-Free Vitreloy 1 Replacements
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22075471.svg)](https://doi.org/10.5281/zenodo.22075471)
+
 This repository contains the dataset and Python code required to reproduce the machine learning screening pipeline presented in our manuscript: *"Data-Driven Discovery of a Beryllium-Free Vitreloy 1 via High-Throughput Machine Learning"*.
 
 ## Files Included
